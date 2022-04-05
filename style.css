@@ -1,0 +1,62 @@
+body{
+  background-color: aliceblue;
+}
+
+
+.intro{
+
+  display: inline-block;
+  padding:10px;
+  align-content: center;
+  justify-content: center;
+  background-color: blanchedalmond;
+  position: absolute;
+
+}
+
+.intro p {
+  text-align: center;
+}
+
+.intro:hover{
+
+  color: darkkhaki;
+
+}
+
+  .hidden{
+  display: none;
+}
+
+.catdiv{
+  width: 100px;
+  margin: 20px;
+  filter: drop-shadow(2px 2px 4px #8888);
+  background-color: lightpink;
+  padding: 15px;
+  justify-content: center;
+  display: none;
+}
+
+.ott{
+
+  width: 100px;
+  margin: 20px;
+  filter: drop-shadow(2px 2px 4px #8888);
+  background-color: lightpink;
+  padding: 15px;
+  justify-content: : center;
+  display: none;
+
+}
+
+
+.popupcat {
+
+  background-image: url("images/cat.png");
+  background-position: center;
+  position: absolute;
+  height: 90%;
+  width: 90%;
+
+}
